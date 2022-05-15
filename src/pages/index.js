@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import { PickerInline } from "filestack-react"
+// import { PickerInline } from "filestack-react"
 
 const apikey = "APtxwk5KVRsy0bq7q4ev1z"
 
@@ -17,12 +17,12 @@ const IndexPage = () => {
     <Layout>
       <Seo title="Home" />
       <h1></h1>
-      <PickerInline
+      {/* <PickerInline
         apikey={apikey}
         onSuccess={res => console.log(res)}
         onUploadDone={res => console.log(res)}
         pickerOptions={pickerConfig}
-      />
+      /> */}
     </Layout>
   )
 }
